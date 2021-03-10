@@ -2,150 +2,133 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>COACHTECH</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/reset.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社TECH</title>
+  <meta name="description" content="株式会社TECHのコーポレートサイトです。" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/blog.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="header-wrap">
-      <h1 class="header-logo">estra inc.</h1>
-      <nav class="header-nav">
-        <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">service</a></li>
-          <li><a href="#">works</a></li>
-          <li><a href="#">price</a></li>
-          <li><a href="#">contact</a></li>
+    <h1 class="header-ttl">
+      <a href="index.html">
+        TECH
+      </a>
+    </h1>
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item"><a href="index.html">ホーム</a></li>
+        <li class="header-nav-item"><a href="service.html">事業内容</a></li>
+        <li class="header-nav-item"><a href="news.html">ニュース</a></li>
+        <li class="header-nav-item"><a href="blog.html">社員ブログ</a></li>
+        <li class="header-nav-item"><a href="company.html">会社情報</a></li>
+        <li class="header-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="header-nav-item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    </div>
+    <div class="menu" id="menu">
+      <span class="menu-line-top"></span>
+      <span class="menu-line-middle"></span>
+      <span class="menu-line-bottom"></span>
+    </div>
+    <nav class="drawer-nav" id="drawer-nav">
+      <ul class="drawer-nav-list">
+        <li class="drawer-nav-item"><a href="index.html">ホーム</a></li>
+        <li class="drawer-nav-item"><a href="service.html">事業内容</a></li>
+        <li class="drawer-nav-item"><a href="news.html">ニュース</a></li>
+        <li class="drawer-nav-item"><a href="blog.html">社員ブログ</a></li>
+        <li class="drawer-nav-item"><a href="company.html">会社概要</a></li>
+        <li class="drawer-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="drawer-nav-item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    </header>
+  </header>
+  <!-- page-mv -->
+  <div class="page-mv">
+    <h1 class="ttl">社員ブログ</h1>
+  </div>
+  <!-- page-mv end -->
+  <main>
+    <div class="blog ptb-m wrap">
+      <div class="blog-list">
+        <article class="blog-item">
+          <a href="#" class="blog-item-thumbnail">
+            <img src="img/blog.png" alt="会社を創業した理由">
+          </a>
+          <p class="blog-item-date">2019/07/17</p>
+          <h2 class="blog-item-ttl"><a href="#">会社を創業した理由</a></h2>
+        </article>
+        <article class="blog-item">
+          <a href="#" class="blog-item-thumbnail">
+            <img src="img/blog.png" alt="ITエンジニアを育成する最強メソッド">
+          </a>
+          <p class="blog-item-date">2019/11/11</p>
+          <h2 class="blog-item-ttl"><a href="#">ITエンジニアを育成する最強メソッド</a></h2>
+        </article>
+        <article class="blog-item">
+          <a href="#" class="blog-item-thumbnail">
+            <img src="img/blog.png" alt="コーチングによるモチベーション向上理論">
+          </a>
+          <p class="blog-item-date">2020/08/01</p>
+          <h2 class="blog-item-ttl"><a href="#">コーチングによるモチベーション向上理論</a></h2>
+        </article>
+        <article class="blog-item">
+          <a href="#" class="blog-item-thumbnail">
+            <img src="img/blog.png" alt="プログラミング言語習得論">
+          </a>
+          <p class="blog-item-date">2020/09/10</p>
+          <h2 class="blog-item-ttl"><a href="#">プログラミング言語習得論</a></h2>
+        </article>
+        <article class="blog-item">
+          <a href="#" class="blog-item-thumbnail">
+            <img src="img/blog.png" alt="エンジニア採用における注意点">
+          </a>
+          <p class="blog-item-date">2020/12/01</p>
+          <h2 class="blog-item-ttl"><a href="#">エンジニア採用における注意点</a></h2>
+        </article>
+        <article class="blog-item">
+          <a href="#" class="blog-item-thumbnail">
+            <img src="img/blog.png" alt="今年の抱負">
+          </a>
+          <p class="blog-item-date">2021/01/01</p>
+          <h2 class="blog-item-ttl"><a href="#">今年の抱負</a></h2>
+        </article>
+      </div>
+    </div>
+  </main>
+  <!-- bottom-contact-->
+  <section class="bottom-contact ptb-m">
+    <div class="wrap">
+      <h2 class="bottom-contact-ttl ttl">お問い合わせ</h2>
+      <p class="bottom-contact-txt">
+        お仕事のご依頼や採用に関してはお問い合わせにて承っております。
+      </p>
+      <a href="contact.html" class="bottom-contact-btn btn">お問い合わせ</a>
+    </div>
+  </section>
+  <!-- bottom-contact end -->
+
+  <footer class="footer">
+    <div class="footer-inner wrap">
+      <small class="footer-copyright">&copy; 2020 TECH inc.</small>
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item"><a href="index.html">ホーム</a></li>
+          <li class="footer-nav-item"><a href="service.html">事業内容</a></li>
+          <li class="footer-nav-item"><a href="news.html">ニュース</a></li>
+          <li class="footer-nav-item"><a href="blog.html">社員ブログ</a></li>
+          <li class="footer-nav-item"><a href="company.html">会社概要</a></li>
+          <li class="footer-nav-item"><a href="recruit.html">採用情報</a></li>
+          <li class="footer-nav-item"><a href="contact.html">お問い合わせ</a></li>
         </ul>
       </nav>
     </div>
-  </header>
-  <main>
-    <div id="eyecatch">
-      <p>機械ではできない仕事を</p>
-      <div class="infonews">
-        <div class="info1">
-          <p>2019/01/01</p>
-          <p class="info2">ニュースタイトルはここに入ります。3月の決算報告書</p>
-          <div class="news">news</div>
-        </div>  
-      </div>  
-    </div>
-      
-    <div class= "eye_box">
-        <h3>お客様のために進化する成長企業でありつづける</h3>
-        <div class="image1"><img src="./img/mission-img.jpg" alt="" class="alignleft"></div>
-          <p>      
-            顧客主義のサービスを提供する企業として、お客様の企業経営に必要なサービスと情報を提供し続ける企業支援会社を目指します。企業
-            が現在直面している「勝ち残るため」の戦略を提供できる会社として、ホームページをはじめ、各種マーケティングをご提供いたします。
-          </p>
-        <a href="#" class="eye_box1">ミッション詳細</a>
-      </div>
-    
-    <!-- <div id="about">
-      <h2 class="section-title">service</h2>
-      <div class="about-wrap">
-        <div class="about-left">
-          <h3>web制作事業</h3>
-          
-          <p> コーチングのミッション</p>
-          <p>ユーザーの求める物を分析し、ユーザビリティを備えた最適なサイトを提供。建設業から美容ブライダル、飲食点まで多種多様な業種の制作実績が
-            あります。
-          </p>
-        </div>
-
-        <div class="about-right">
-          <img src="img/service2.jpg" alt="">
-        </div>
-
-        <div class="rightbox">
-          <img src="img/service1.jpg" alt="">
-          <h3>web制作事業</h3>
-          <p>コーチングのミッション</p>
-          <p>ユーザーの求める物を分析し、ユーザビリティを備えた最適なサイトを提供。建設業から美容ブライダル、飲食点まで多種多様な業種の制作実績が
-          あります。</p>
-        </div>
-
-       
-      </div>
-    </div> -->
-    <div id="about">
-      <h2 class="section-title">service</h2>
-      <div class="about-wrap">
-        <div class="text-wrap-first">
-          <h3 class="line3">web制作事業</h3>
-          <p class="line1"> コーチングのミッション</p>
-          <p class="line2">ユーザーの求める物を分析し、ユーザビリティを備えた最適なサイトを提供。</p>
-          <p class="line2">建設業から美容ブライダル、飲食点まで多種多様な業種の制作実績があります。</p>
-          <div class="lecturebox">サービス詳細</div>
-        </div>
-        <img src="img/service2.jpg" alt="" class="camera">
-      </div>
-      <div class="about-wrap">
-        <div class="text-wrap-second">
-          <h3 class="line3">web制作事業</h3>
-          <p class="line1">コーチングのミッション</p>
-          <p class="line2">ユーザーの求める物を分析し、ユーザビリティを備えた最適なサイトを提供。</p>
-          <p class="line2">建設業から美容ブライダル、飲食点まで多種多様な業種の制作実績があります。</p>
-          <div class="lecturebox">サービス詳細</div>
-        </div>
-        <img src="img/service1.jpg" alt="" class="camera2">
-      </div>
-    </div>
-
-    <div id="business">
-      <h2 class="section-title">service</h2>
-      <div class="business-wrap">
-        <div class="business-cat">
-          <h3>company</h3>
-          <p>
-            会社概要
-          </p>
-        </div>
-        <div class="business-cat２">
-          <h3>recruit</h3>
-          <p>
-            採用情報
-          </p>
-        </div>
-      </div>
-    </div>
-    <div id="company">
-      <div class="company-question">
-        <h2 class="section-title">FAQ</h2>
-        <p>良くある質問</p>
-      </div>
-    </div>
-    <div id="contact">
-      
-      <h1 class="contact-wen">contact</h1>
-      <div class="inquiry">
-        <p>お問い合わせ</p>
-        <h2>お気軽にお問い合わせください</h2>
-        <p class="inform1">資料請求・お問い合わせなど何でも気軽にお問い合わせ下さい。お仕事のご連絡もお問い合わせページに飛んでいただいて入力フォームにご記入お願い致します。</p>
-        <div class="infoｂox">お問い合わせへ</div>
-      </div>
-    </div>
-    <footer class="footer">
-      <div class="footer-wrap">
-        <h1 class="footer-logo">estra inc.</h1>
-        <nav class="footer-nav">
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">service</a></li>
-            <li><a href="#">works</a></li>
-            <li><a href="#">price</a></li>
-            <li><a href="#">contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    <small>Copyright 2019 estra inc. All Rights Reserved.</small>
   </footer>
 </body>
 
