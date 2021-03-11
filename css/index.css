@@ -115,16 +115,17 @@ img {
 
 .header-ttl {
   font-size: 24px;
-  width: 80px;
+  width: 200px;
 }
 
 .header-nav-list {
   display: flex;
   font-weight: bold;
+  margin-right:50px ;
 }
 
 .header-nav-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 35px;
 }
 
 .header-nav a {
@@ -386,7 +387,7 @@ img {
   }
   .menu{
     display: inline-block;
-    width: 36px;
+    width: 70px;
     height: 32px;
     cursor: pointer;
     position: relative;
