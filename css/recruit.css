@@ -1,38 +1,31 @@
-@charset "UTF-8";
+@charset "UTF8";
+.recruit-type{
+  margin-top: 80px;
 
-.recruit-type:not(:first-child){
-	margin-top: 80px;
 }
-
 .recruit-type-ttl{
-	font-weight: bold;
-	font-size: 26px;
-	border-bottom: 1px solid #222;
+  font-weight: bold;
+  font-size: 26px ;
+  border-bottom: 1px solid #222;
 }
-
 .recruit-type-description{
-	margin-top: 20px;
+  margin-top: 20px;
 }
-
 .recruit-type-info{
+  margin-top: 20px;
   width: 100%;
-	border: 1px solid #222;
-	margin-top: 20px;
-}
+  border: 1px solid #222;
 
+}
 .recruit-type-info-name,
 .recruit-type-info-data{
-	border-top: 1px solid #222;
-	padding: 10px;
+  border-top: 1px solid;
+  padding: 10px;
 }
-
 .recruit-type-info-name{
-	font-weight: bold;
-	width: 30%;
-	border-right: 1px solid #222;
-	background-color: #f5f6f9;
-}
+  font-weight: bold;
+  width: 30%;
+  border-right: 1px solid #222;
+  background-color: #f5f6f9;
 
-.recruit-type-info-data{
-	width: 70%;
 }
